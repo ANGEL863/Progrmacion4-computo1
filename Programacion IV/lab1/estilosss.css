@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+body{
+    background-color:pink;
+}
+header {
+    background-color: powderblue;
+    padding: 25px;
+    text-align: center;
+}
+dt{
+    font-size: 50pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main {
+    padding: 30px;
+    flex: 1; 
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+img {
+    max-width: 30%;
+    height: auto;
+    text-align: center;
+}
+
+footer {
+    background-color: gray;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#contacto, #redes {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+    }
+}

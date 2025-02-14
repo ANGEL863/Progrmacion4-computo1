@@ -1,0 +1,13 @@
+.container {
+    display: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section {
+    border: 1px solid #f80000;
+    padding: 20px;
+    width: 50px;
+    margin: 10px;
+}
+

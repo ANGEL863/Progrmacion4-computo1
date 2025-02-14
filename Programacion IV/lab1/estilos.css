@@ -1,0 +1,29 @@
+h1{
+    color: white;
+ }
+body{
+    background-color: palevioletred;
+}
+.descripcion{
+    color: red;
+    font-size: 20pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img{
+    width: "15%";
+    height: "50%";
+}
+
+ul{
+    background-color: gainsboro;
+    margin: 5px;
+    padding: 5px;
+}
+dt{
+    font-size: 15pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    display: flex;
+}
